@@ -11,7 +11,7 @@
     ]
   },
   "dependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
@@ -55,7 +55,7 @@
     "typescript": "^4.9.4",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^5.2.5"
   },
   "scripts": {
     "install-if-package-changed": "git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep --quiet yarn.lock && yarn install || exit 0",
